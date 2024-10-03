@@ -42,6 +42,7 @@
     "@vuepress/plugin-google-analytics": "^1.9.7",
     "archiver": "^5.3.1",
     "chart.js": "^4.0.0",
+    "chart-js-v4": "npm:chart.js@^4.4.4",
     "chartjs-test-utils": "^0.4.0",
     "eslint": "^8.19.0",
     "eslint-config-chartjs": "^0.3.0",
@@ -67,8 +68,5 @@
   },
   "peerDependencies": {
     "chart.js": ">=3.0.0"
-  },
-  "dependencies": {
-    "chart-js-v4": "npm:chart.js@^4.4.4"
   }
 }
