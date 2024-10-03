@@ -1,4 +1,4 @@
-import {ChartEvent} from 'chart.js';
+import {ChartEvent} from 'chart-js-v4';
 import {Context} from './context';
 
 type Align = 'bottom' | 'center' | 'end' | 'left' | 'right' | 'start' | 'top' | number;

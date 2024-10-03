@@ -1,5 +1,5 @@
 // https://github.com/chartjs/chartjs-plugin-datalabels/issues/130
-import {Chart} from 'chart.js';
+import {Chart} from 'chart-js-v4';
 import {Context} from '../index';
 import Plugin from '../index';
 

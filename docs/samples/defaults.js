@@ -1,4 +1,4 @@
-import {defaults} from 'chart.js';
+import {defaults} from 'chart-js-v4';
 
 defaults.set({
   plugins: {

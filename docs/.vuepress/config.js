@@ -71,8 +71,8 @@ module.exports = {
   ],
   chainWebpack(config) {
     config.module
-      .rule('chart.js')
-      .include.add(path.resolve('node_modules/chart.js')).end()
+      .rule('chart-js-v4')
+      .include.add(path.resolve('node_modules/chart-js-v4')).end()
       .use('babel-loader')
       .loader('babel-loader')
       .options({

@@ -25,7 +25,7 @@ module.exports = function(karma) {
     files: [
       {pattern: './test/fixtures/**/*.js', included: false},
       {pattern: './test/fixtures/**/*.png', included: false},
-      'node_modules/chart.js/dist/chart.umd.js',
+      'node_modules/chart-js-v4/dist/chart.umd.js',
       'test/index.js',
       'src/plugin.js',
       specs
@@ -56,13 +56,13 @@ module.exports = function(karma) {
         commonjs()
       ],
       external: [
-        'chart.js',
+        'chart-js-v4',
         'chartjs-plugin-datalabels',
       ],
       output: {
         format: 'umd',
         globals: {
-          'chart.js': 'Chart',
+          'chart-js-v4': 'Chart',
           'chartjs-plugin-datalabels': 'ChartDataLabels',
         }
       }

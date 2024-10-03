@@ -1,7 +1,7 @@
-import {ChartType, Plugin} from 'chart.js';
+import {ChartType, Plugin} from 'chart-js-v4';
 import {Options} from './options';
 
-declare module 'chart.js' {
+declare module 'chart-js-v4' {
   interface ChartDatasetProperties<TType extends ChartType, TData> {
     /**
      * Per dataset datalabels plugin options.

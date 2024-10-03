@@ -1,4 +1,4 @@
-import {Chart, ChartEvent} from 'chart.js';
+import {Chart, ChartEvent} from 'chart-js-v4';
 import {Context} from '../context';
 
 const chart = new Chart('id', {

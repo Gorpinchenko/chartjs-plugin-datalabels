@@ -20,8 +20,8 @@ module.exports = [
         indent: false,
         plugins: [],
         globals: {
-          'chart.js': 'Chart',
-          'chart.js/helpers': 'Chart.helpers'
+          'chart-js-v4': 'Chart',
+          'chart-js-v4/helpers': 'Chart.helpers'
         }
       };
 
@@ -38,8 +38,8 @@ module.exports = [
       return config;
     }),
     external: [
-      'chart.js',
-      'chart.js/helpers',
+      'chart-js-v4',
+      'chart-js-v4/helpers',
     ]
   },
   {
@@ -51,8 +51,8 @@ module.exports = [
       indent: false
     },
     external: [
-      'chart.js',
-      'chart.js/helpers',
+      'chart-js-v4',
+      'chart-js-v4/helpers',
     ]
   },
 ];
